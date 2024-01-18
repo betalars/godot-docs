@@ -63,6 +63,8 @@ library a better place for all users.
   inside of an **addons/asset_name/** folder. Do this to avoid having your files 
   clash with other assets, or with the files of users installing your asset. 
   This folder will **not** be automatically generated when a user installs your asset.
+  As most plugin repositories include non-essential files, a common practice is to 
+  provide a cleaned up zip-file attached to a release.
 
 * Fix or suppress all script **warnings**. The warning system is there to
   help identify issues with your code, but people using your asset
